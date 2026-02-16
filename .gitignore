@@ -120,3 +120,10 @@ fingerprint-android.json
 # Keystore files (keep secret)
 keystore-backup/
 *.keystore
+
+# Sensitive credentials and keys (must not be committed)
+serviceAccountKey.json
+google-services.json
+firebase.json
+*.base64
+release.keystore.base64
