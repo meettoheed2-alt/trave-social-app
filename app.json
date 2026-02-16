@@ -73,14 +73,16 @@
           "android": {
             "manifestPlaceholders": {
               "appAuthRedirectScheme": "trave-social",
-              "traveSocialScheme": "trave-social"
+              "traveSocialScheme": "trave-social",
+              "devAppAuthRedirectScheme": "trave-social.dev"
             },
             "enableProguardInReleaseBuilds": false,
             "enableShrinkResourcesInReleaseBuilds": false,
             "gradleVersion": "7.6.0",
             "compileSdkVersion": 35,
             "targetSdkVersion": 34,
-            "enableMinifyInReleaseBuilds": false
+            "enableMinifyInReleaseBuilds": false,
+            "enableSourcesInReleaseBuilds": true
           }
         }
       ],

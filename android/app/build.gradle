@@ -132,6 +132,25 @@ android {
             crunchPngs enablePngCrunchInRelease.toBoolean()
         }
     }
+    flavorDimensions "env"
+    productFlavors {
+        dev {
+            dimension "env"
+            applicationIdSuffix ".dev"
+            versionNameSuffix "-dev"
+            resValue "string", "app_name", "Trave-Social DEV"
+            manifestPlaceholders = [
+                appAuthRedirectScheme: 'trave-social.dev'
+            ]
+        }
+        prod {
+            dimension "env"
+            resValue "string", "app_name", "Trave-Social"
+            manifestPlaceholders = [
+                appAuthRedirectScheme: 'trave-social'
+            ]
+        }
+    }
     packagingOptions {
         jniLibs {
             def enableLegacyPackaging = findProperty('expo.useLegacyPackaging') ?: 'false'

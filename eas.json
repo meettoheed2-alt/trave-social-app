@@ -18,6 +18,21 @@
         "appAuthRedirectScheme": "trave-social"
       }
     },
+    "dev": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleDevDebug",
+        "applicationIdSuffix": ".dev"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://dev-backend.onrender.com/api",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyCYpwO1yUux1cHtd2bs-huu1hNKv1kC18c",
+        "appAuthRedirectScheme": "trave-social.dev",
+        "APP_ENVIRONMENT": "development"
+      }
+    },
     "preview": {
       "distribution": "internal",
       "android": {
