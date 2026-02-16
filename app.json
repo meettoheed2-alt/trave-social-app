@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "trave-social",
-    "slug": "trave-social-arshu4",
+    "slug": "trave-social-app",
     "version": "1.0.4",
     "orientation": "portrait",
     "icon": "https://firebasestorage.googleapis.com/v0/b/travel-app-3da72.firebasestorage.app/o/logo%2Ficon.png?alt=media&token=0b576d71-e1d3-47fd-8527-79293b4c3db1",
@@ -146,9 +146,9 @@
       "FIREBASE_APP_ID": "1:709095117662:web:5f00f45bb4e392ee17f5cf",
       "FIREBASE_MEASUREMENT_ID": "G-PFZRL4FDFD",
       "eas": {
-        "projectId": "61e882af-6bec-4a65-97cd-22cb04d8fdea"
+        "projectId": "ff92bf5c-bf82-4ff3-ac64-762067048642"
       }
     },
-    "owner": "arshu4"
+    "owner": "tauheeddev_56"
   }
 }
