@@ -23,8 +23,7 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk",
-        "gradleCommand": ":app:assembleDevDebug",
-        "applicationIdSuffix": ".dev"
+        "gradleCommand": ":app:assembleDevDebug"
       },
       "env": {
         "EXPO_PUBLIC_API_BASE_URL": "https://dev-backend.onrender.com/api",
