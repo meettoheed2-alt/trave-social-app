@@ -1,0 +1,46 @@
+{
+  "cli": {
+    "version": ">= 16.27.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleDebug"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://trave-social-backend.onrender.com/api",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyCYpwO1yUux1cHtd2bs-huu1hNKv1kC18c",
+        "appAuthRedirectScheme": "trave-social"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://trave-social-backend.onrender.com/api",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyCYpwO1yUux1cHtd2bs-huu1hNKv1kC18c",
+        "appAuthRedirectScheme": "trave-social"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_PUBLIC_API_BASE_URL": "https://trave-social-backend.onrender.com/api",
+        "EXPO_PUBLIC_GOOGLE_MAPS_API_KEY": "AIzaSyCYpwO1yUux1cHtd2bs-huu1hNKv1kC18c",
+        "appAuthRedirectScheme": "trave-social"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
