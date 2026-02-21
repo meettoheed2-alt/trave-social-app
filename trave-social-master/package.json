@@ -68,7 +68,6 @@
     "expo-web-browser": "~15.0.10",
     "fbemitter": "^3.0.0",
     "firebase": "^12.7.0",
-    "firebase-functions": "^7.0.2",
     "lodash": "^4.17.21",
     "react": "19.1.1",
     "react-dom": "19.1.1",
